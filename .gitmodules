@@ -7,3 +7,6 @@
 [submodule "CampusCatalogue---Backend"]
 	path = CampusCatalogue---Backend
 	url = https://github.com/pranavjainjs/CampusCatalogue---Backend.git
+[submodule "PickMeUp-Customer"]
+	path = PickMeUp-Customer
+	url = https://github.com/iks1/PickMeUp-Customer.git
