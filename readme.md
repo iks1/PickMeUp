@@ -28,95 +28,112 @@
 
 In order to install all packages follow the steps below:
 
- 1. Move to CampusCatalogue--backend folder
- 2. Then move into the dashboard_apis folder
- 3. For making sure you have the required npm version- `nvm use 18`
- 4. If you don't have the desired version of node install it by - `nvm install 18`
+ 1. Move to <b> CampusCatalogue---Backend </b> folder
+ 3. To make sure you have the required npm version- `nvm use 18`
+ 4. If you don't have the desired version of node install it by - `nvm install 18` and then run -`nvm use 18`
  5. Then to install all the required packages run - `npm install`
  6. Then run `node index.js`
  7. your server should start
 
+ > The server will be served on **http://localhost:8080/**
+
 ### Steps To Set Up Frontend
  
  #### customer side
- 1. Move to PickMeUp--Customer
+ 1. Move to <b> PickMeUp--Customer </b>
  3. `npm install`
  4. `npx expo start`
- 5. `to run the application install the Expo Go application from Play Store and scan the QR Code or run  it on emulator`
+ 5. to run the application install the Expo Go application from Play Store and scan the QR Code or run  it on emulator
 
  #### shopkeeper side
- 1. Move to PickMeUp--Shopkeeper and repeat the abhove process
+ 1. Move to <b>PickMeUp--Shopkeeper</b> and repeat the abhove process
 
-
-
-
-> The sercer will be served on **http://localhost:8080/**
 
 ### Directory Structure
 
 The following is a high-level overview of relevant files and folders.
 
 ```
-CampusCatalogue--backend/
-├── dashboard_apis/
-│   ├── core/
-│   ├── dashboard_apis/
-|   ├── files/
-|   ├── scripts/
-|   ├── static/
-|   ├── templates/
-|   ├── utils/
-|   ├── volume_estimation/
-|   ├── dbsqlite3
-|   ├── generate_data.py
-|   ├── load_adress.py
-|   ├── load_data_object.py
-|   ├── load_data_owner.py
-|   ├── load_rider.py
-|   ├── manage.py 
-|   └── requirements.txt
-|
-└── frontend/
-    ├── public/
-    │   ├── index.html
-    │   └── ...
-    ├── src/
-    │   ├── app/
-    │   │   ├── store.js
-    │   ├── Components/
-    |   |   ├── Auth/
-    │   │   ├── Global/
-    |   |   ├── Layout/
-    |   |   ├── Mobile/
-    |   |   ├── RiderManagement/
-    │   │   └── VolumeEstimation/
-    │   ├── constants/
-    │   ├── dummy_files/
-    │   ├── features/
-    │   ├── Pages/
-    |       ├── Mobile/
-    |       |   ├──Checklist.jsx
-    |       |   └── ...
-    |       ├── Dashboard.jsx
-    |       ├── Demo.jsx
-    |       ├── Inventory.jsx
-    |       ├── InventoryImages.jsx
-    |       ├── ManagerLogin.jsx
-    |       ├── RiderDetails.jsx
-    |       ├── RiderManagement.jsx
-    |       ├── Riders.jsx
-    |       ├── UploadZipPage.jsx
-    |       └── VolumeEstimation
-    |   ├── redux/
-    |   ├── shared/
-    |   ├── styles/
-    |   ├── App.js
-    |   ├── index.js
-    |   ├── package-lock.json
-    |   ├── package.json
-    |   └── tailwind.config.js
-    ├── .gitignore
-    └── .README.MD
-       
-```
+CampusCatalogue---Backend/
+├── config/
+│   ├── default.js
+│   └── ...
+├── controllers/
+|   ├── shopkeeper.js
+|   ├── user.js
+|   └── ...
+├── middlewares/
+|   ├── validation
+|   |    ├──shopkeeper.js
+|   |    └──user.js
+|   └── auth.js
+├── models/
+|   ├── customer_model.js
+|   ├── db.js
+|   ├── order_model.js
+|   └── shop_model.js
+├── routes/
+|   └── ...
+├── .gitignore
+├── package-lock.json
+└── package.json
 
+PickMeUp--Shopkeeper/
+├── assets/
+│   └── ...
+├── components/
+|   ├── Completed.js
+|   ├── CompletedActive.js
+|   ├── Google.js
+|   ├── InputField.js
+|   ├── Navbar.js
+|   ├── Pending.js
+|   └── ...
+├── pages/
+|   ├── Getstarted.js
+|   ├── Login.js
+|   └── PendingHomePage.js
+├── .gitignore
+├── App.js
+├── app.json
+├── babel.config.js
+├── metro.config.js
+├── package-lock.json
+├── package.json
+└── m-cli.config.js
+
+PickMeUp--Customer/
+├── assets/
+│   └── ...
+├── components/
+|   ├── FilterCard.js
+|   ├── FoodCard.js
+|   ├── FoodCard2.js
+|   ├── FoodItemCard.js
+|   ├── FoodPopUp.js
+|   ├── Google.js
+|   └── ...
+├── context/
+|   ├── AuthContext.js
+|   └── ...
+├── pages/
+|   ├── BillingPage.js
+|   ├── foodDashboard.js
+|   ├── FoodShopPage.js
+|   ├── GetStarted.js
+|   ├── Login.js
+|   ├── printDashboard.js
+|   ├── SignUp.js
+|   └── ...
+├── .gitignore
+├── App.js
+├── app.json
+├── babel.config.js
+├── metro.config.js
+├── package-lock.json
+├── react-native.config.js
+├── package.json
+└── m-cli.config.js
+
+
+```
