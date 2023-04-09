@@ -1,6 +1,3 @@
-[submodule "PickMeUp"]
-	path = PickMeUp
-	url = https://github.com/iks1/PickMeUp.git
 [submodule "PickMeUp--Shopkeeper"]
 	path = PickMeUp--Shopkeeper
 	url = https://github.com/iks1/PickMeUp--Shopkeeper.git
