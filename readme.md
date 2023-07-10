@@ -12,7 +12,8 @@
 
 1.  [Git](https://git-scm.com/downloads).
 2.  [Node & npm](https://nodejs.org/en/download/) _(version 18 or greater)_.
-3.  clone of the repo.
+3.  [nvm](https://dev.to/skaytech/how-to-install-node-version-manager-nvm-for-windows-10-4nbi).
+4.  Clone of the repo.
 
 ## Installation of the Project
 
