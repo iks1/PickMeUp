@@ -11,15 +11,16 @@
 ### Prerequisites
 
 1.  [Git](https://git-scm.com/downloads).
-2.  [Node & npm](https://nodejs.org/en/download/) _(version 16 or greater)_.
-3.  clone of the repo.
+2.  [Node & npm](https://nodejs.org/en/download/) _(version 18 or greater)_.
+3.  [nvm](https://dev.to/skaytech/how-to-install-node-version-manager-nvm-for-windows-10-4nbi).
+4.  Clone of the repo.
 
 ## Installation of the Project
 
-1. clone the project by - `git clone --recursive https://github.com/iks1/PickMeUp.git` to ensure it clones all the submodules as well.
-2. go to the directory PickMeUp by -  `cd PickMeUp`
-3. To make sure the submodules are updated run the command - ` git submodule update --remote`
-4. follow the next procedures to run the project in your local environment.
+1. Clone the project by -  `git clone --recursive https://github.com/iks1/PickMeUp.git` to ensure it clones all the submodules as well.
+2. Go to the directory PickMeUp by -  `cd PickMeUp`
+3. To make sure the submodules are updated run the command -  `git submodule update --remote`
+4. Follow the next procedures to run the project in your local environment.
 
 
 ## Running the Project
@@ -29,11 +30,11 @@
 In order to install all packages follow the steps below:
 
  1. Move to <b> CampusCatalogue---Backend </b> folder
- 3. To make sure you have the required npm version- `nvm use 18`
- 4. If you don't have the desired version of node install it by - `nvm install 18` and then run -`nvm use 18`
- 5. Then to install all the required packages run - `npm install`
- 6. Then run `node index.js`
- 7. your server should start
+ 2. To make sure you have the required npm version run -  `nvm use 18`
+ 3. If you don't have the desired version of node install it by -  `nvm install 18` and then run -  `nvm use 18`
+ 4. Then to install all the required packages run -  `npm install`
+ 5. Then run -  `node index.js`
+ 6. Your server should start!
 
  > The server will be served on **http://localhost:8080/**
 
@@ -41,12 +42,12 @@ In order to install all packages follow the steps below:
  
  #### customer side
  1. Move to <b> PickMeUp--Customer </b>
- 3. `npm install`
- 4. `npx expo start`
- 5. to run the application install the Expo Go application from Play Store and scan the QR Code or run  it on emulator
+ 2. `npm install`
+ 3. `npx expo start`
+ 4. To run the application install the Expo Go application from Play Store and scan the QR Code or run  it on emulator
 
  #### shopkeeper side
- 1. Move to <b>PickMeUp--Shopkeeper</b> and repeat the abhove process
+ 1. Move to <b> PickMeUp--Shopkeeper </b> and repeat the above process
 
 
 ### Directory Structure
