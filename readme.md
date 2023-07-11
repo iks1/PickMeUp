@@ -1,6 +1,6 @@
 
 <h2 align="center">IIT GUWAHATI CAMPUS CATALOGUE</h2>
-<h4 align="left">A React native based application with NodeJs server powered by MongoDb database.</h4>
+<h4 align="left">A React native based application with NodeJs server powered by PostgreSql database.</h4>
 
 **A React-Node Based  Application**  
 
