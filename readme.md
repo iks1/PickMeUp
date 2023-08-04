@@ -1,6 +1,6 @@
 
-<h2 align="center">IIT GUWAHATI CAMPUS CATALOGUE</h2>
-<h4 align="left">A React native based application with NodeJs server powered by PostgreSql database.</h4>
+<h2 align="center">IIT GUWAHATI VIRTUAL QUEUE APPLICATION</h2>
+<h4 align="left">A React native based application with NodeJs server powered by PostgreSql database. The following repository is a showcasing for the project,The main repository is private for now. These are the some interfaces of the Application</h4>
 
 **A React-Node Based  Application**  
 
