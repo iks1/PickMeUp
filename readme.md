@@ -5,8 +5,18 @@
 **A React-Node Based  Application**  
 
 -------
+#### Some interfaces fro students side
+![campuscart1](https://github.com/iks1/PickMeUp/assets/94672267/7a81f03f-c891-4547-a230-8ee209db2f24)
+
+![campuscart2](https://github.com/iks1/PickMeUp/assets/94672267/81cf955e-6d88-41cd-b55f-7c92c4a51d02)
+#### Stationaries side for printing stuffs remotely
+![campuscart3](https://github.com/iks1/PickMeUp/assets/94672267/06e28695-e173-43e5-897c-618a28406953)
+
+![campuscart4](https://github.com/iks1/PickMeUp/assets/94672267/c98be325-ea74-4724-9a1e-f56b9eb5d0fc)
+
 
 # Development Readme
+
 
 ### Prerequisites
 
